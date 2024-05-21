@@ -4,4 +4,4 @@
 
 ### Landing Page
 
-![alt text](<password-generator/src/Screenshot (1687).png>)
+![alt text](<password-generator/src/Screenshot (1689).png>)

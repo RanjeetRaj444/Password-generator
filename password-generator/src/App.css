@@ -2,7 +2,7 @@
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
-
+	background-image: linear-gradient(-225deg, #08085f 0%, #0404d6 100%);
 	justify-content: center;
 }
 .container {
@@ -12,12 +12,16 @@
 }
 
 .generator {
-	background-image: linear-gradient(-225deg, #08085f 0%, #0404d6 100%);
-	background-color: gray;
-	border-radius: 10px;
-	box-shadow: 0px 2px 10px rgba(245, 244, 244, 0.863);
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
 	padding: 2rem;
 	/* width: 80%; */
+	background: rgba(255, 255, 255, 0.15);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(14px);
+	-webkit-backdrop-filter: blur(14px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .generator__header {
 	text-align: center;
@@ -286,3 +290,55 @@ input:checked + .slider:before {
 		font-size: 0.6rem;
 	}
 }
+
+
+/* particles styles */
+
+/* body {
+	background: #000;
+  } */
+  
+  #title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -113px;
+	margin-top: -48px;
+	width: 226px;
+	height: 96px;
+  }
+  
+  h1 {
+	color: #fff !important;
+	text-align: center;
+  }
+  
+  .github {
+	bottom: 10px;
+	right: 10px;
+	position: fixed;
+	border-radius: 10px;
+	background: #fff;
+	padding: 0 12px 6px 12px;
+	border: 1px solid #000;
+  }
+  
+  .github a:hover,
+  .github a:link,
+  .github a:visited,
+  .github a:active {
+	color: #000;
+	text-decoration: none;
+  }
+  
+  .github img {
+	height: 30px;
+  }
+  
+  .github #gh-project {
+	font-size: 20px;
+	padding-left: 5px;
+	font-weight: bold;
+	vertical-align: bottom;
+  }
+  
