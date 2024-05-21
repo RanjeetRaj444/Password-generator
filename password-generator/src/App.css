@@ -21,7 +21,7 @@
 }
 .generator__header {
 	text-align: center;
-	/* color: darkgreen; */
+	color: gray;
 	margin-bottom: 20px;
 }
 .password {
@@ -33,6 +33,7 @@
 	margin-bottom: 15px;
 	height: 46px;
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
 	text-align: center;
 	background: transparent;
@@ -41,10 +42,11 @@
 	backdrop-filter: blur(15px);
 }
 .form-group > label > h3 {
-	color: rgb(228, 54, 54);
+	color: white;
 }
 .pw__value {
 	color: white;
+	font-size: 2rem;
 }
 .copy__btn {
 	color: #fff;
@@ -240,4 +242,47 @@ input:checked + .slider:before {
 
 .btn:hover i:nth-child(10) {
 	transition-delay: calc(0.045s * 10);
+}
+.btn:hover i:nth-child(11) {
+	transition-delay: calc(0.045s * 11);
+}
+.btn:hover i:nth-child(12) {
+	transition-delay: calc(0.045s * 12);
+}
+.btn:hover i:nth-child(13) {
+	transition-delay: calc(0.045s * 13);
+}
+.btn:hover i:nth-child(14) {
+	transition-delay: calc(0.045s * 14);
+}
+.btn:hover i:nth-child(15) {
+	transition-delay: calc(0.045s * 15);
+}
+.btn:hover i:nth-child(16) {
+	transition-delay: calc(0.045s * 16);
+}
+
+@media screen and (max-width: 677px) {
+	.container {
+		width: 80%;
+		margin: auto;
+		/* min-height: 100vh; */
+	}
+	.password {
+		font-size: 1rem;
+	}
+}
+@media screen and (max-width: 450px) {
+	.container {
+		width: 90%;
+	}
+	.form-group > label > h3 {
+		font-size: 0.8rem;
+	}
+	.pw__value {
+		font-size: 1.5rem;
+	}
+	.password {
+		font-size: 0.6rem;
+	}
 }
