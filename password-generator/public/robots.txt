@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ranjeetraj444.github.io/Password-generator/sitemap.xml
+Sitemap: https://password-generator-84.netlify.app/sitemap.xml
